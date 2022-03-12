@@ -58,6 +58,7 @@ local.properties
 *.ipr
 *.ids
 *.orig
+/out/
 
 ######################
 # Visual Studio Code
@@ -69,7 +70,13 @@ local.properties
 ######################
 /log/
 /target/
+target/
 .flattened-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+HELP.md
 
 ######################
 # Gradle
